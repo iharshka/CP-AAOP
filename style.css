@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#fixednav {
+  position: relative;
+  background-color: #f8f8f8;
+  color: #353839;
+  margin-bottom: 1em;
+  text-align: center;
+  padding: 1em;
+  margin-top: 0;
+}
+
+#fixedhead {
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.welcomebox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.2em;
+  align-items: center;
+  font-size: 1.3em;
+}
+
+#cpusername {
+  padding: 0.1em;
+}
+
+#fetchcpsbtn {
+  padding: 0.1em;
+  margin: 1em;
+}
+
+#allcps {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  font-size: 1em;
+}
+
+.cps {
+  align-self: center;
+  margin-top: 1em;
+  color: #414a4c;
+}
+
+#fixedfoot {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footertext {
+  font-size: medium;
+}
