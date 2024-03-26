@@ -2,6 +2,21 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 389px) {
+  body {
+    font-size: 8px;
+  }
+}
 
 #fixednav {
   position: relative;
@@ -31,7 +46,7 @@
 }
 
 #fetchcpsbtn {
-  padding: 0.1em;
+  padding: 0.05em;
   margin: 1em;
 }
 
@@ -59,5 +74,5 @@
 }
 
 #footertext {
-  font-size: medium;
+  font-size: 1em;
 }

@@ -26,24 +26,30 @@ async function fetchcps(cpusername) {
 
       //dynamically adding CP platform heading
       var cphead = document.getElementById("cp1head");
-      cphead.textContent = "Codeforces";
+      cphead.textContent = "\t Codeforces";
 
       var cpbody = document.getElementById("cp1body");
       console.log(result[0].country);
       cpbody.innerHTML = `
         Hey,  ${
-          result[0].firstName ? result[0].firstName : result[0].username
+          result[0].firstName ? result[0].firstName : result[0].handle
         }! Kudos to achieving these feats on Codeforces:
 
         <img src= ${result[0].avatar}>
 
         <b>Handle:</b> ${result[0].handle} 
-        <b>Full Name:</b> ${result[0].firstName} ${result[0].lastName}
-        <b>Organization:</b> ${result[0].organization} 
-        <b>Country:</b> ${result[0].country} 
-        <b>Current Rank:</b> ${result[0].rank} 
-        <b>Max Rank:</b> ${result[0].maxRank} 
-        <b>Rating:</b> ${result[0].rating}
+        <b>Full Name:</b> ${result[0].firstName ? result[0].firstName : ""} ${
+        result[0].lastName ? result[0].lastName : "not registered"
+      }
+        <b>Organization:</b> ${
+          result[0].organization ? result[0].organization : "not registered"
+        } 
+        <b>Country:</b> ${
+          result[0].country ? result[0].country : "not registered"
+        } 
+        <b>Current Rank:</b> ${result[0].rank ? result[0].rank : "unrated"} 
+        <b>Max Rank:</b> ${result[0].maxRank ? result[0].maxRank : "unrated"} 
+        <b>Rating:</b> ${result[0].rating ? result[0].rating : "unrated"}
         
         This was it for now! Wish you maximum ratings :)`;
     } else {
