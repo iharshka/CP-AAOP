@@ -9,7 +9,7 @@ CP-AAOP is a simple website that displays competitive coding profiles in one pla
 **_Mobile_**
 
 <p align="center">
-<img src="mblss.png" width = 200>
+<img src="mblss.png" width = 250>
 </center>
 
 The UI is minimalist with a focus on functionality.
