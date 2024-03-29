@@ -8,7 +8,9 @@ CP-AAOP is a simple website that displays competitive coding profiles in one pla
 
 **_Mobile_**
 
-![mbl ss](mblss.png)
+<p align="center">
+<img src="mblss.png" width = 200>
+</center>
 
 The UI is minimalist with a focus on functionality.
 
@@ -43,7 +45,7 @@ _A fact:_ I wasted around 20 minutes thinking why the _null_ is getting logged w
 
 Future scope includes maximum coding platforms support or inclusion like Leetcode, Codechef, Atcoder, etc where the user can enter their username and it will display all platforms' profiles (if exist or by the same username). The limitation of this project is that not every coding platform provides public APIs.
 
-### References
+## References
 
 1. https://codeforces.com/apiHelp
 2. https://www.geeksforgeeks.org/what-is-xmlhttprequest-object/
@@ -54,7 +56,7 @@ _References that may help in setting up the development environment:_
 2. https://learning.postman.com/docs/designing-and-developing-your-api/testing-an-api/
 3. https://vercel.com/docs/deployments/overview
 
-## 🚀 About Me
+## 😊 About Me
 
 I'm Harsh, a problem solver, frontend developer & DevOps Eg, soon to be on the backend and new techs (#Web3? adaptive, you say). I want to work on a problem statement where I can cater to hundreds of thousands or millions of people or the one that keeps me staying up all night. Thank you for showing interest in this project. Never mind connecting with me on socials. See you soon.
 

@@ -1,9 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   var cpusername = "iharshka"; //Default username whom data will be displayed
   fetchcps(cpusername);
-  document
-    .getElementById("fetchcpsbtn")
-    .addEventListener("click", fetchcps(cpusername));
+  document.getElementById("fetchcpsbtn").addEventListener("click", fetchcps);
 });
 async function fetchcps(cpusername) {
   if (document.getElementById("cpusername").value)
