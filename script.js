@@ -1,7 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
   var cpusername = "iharshka"; //Default username whom data will be displayed
   fetchcps(cpusername);
-  document.getElementById("fetchcpsbtn").addEventListener("click", fetchcps);
+  document
+    .getElementById("fetchcpsbtn")
+    .addEventListener("click", fetchcps(cpusername));
 });
 async function fetchcps(cpusername) {
   if (document.getElementById("cpusername").value)
@@ -31,7 +33,7 @@ async function fetchcps(cpusername) {
       var cpbody = document.getElementById("cp1body");
       console.log(result[0].country);
       cpbody.innerHTML = `
-        Hey,  ${
+        Hey, ${
           result[0].firstName ? result[0].firstName : result[0].handle
         }! Kudos to achieving these feats on Codeforces:
 
